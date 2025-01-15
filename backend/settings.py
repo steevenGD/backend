@@ -147,3 +147,8 @@ firebase_admin.initialize_app(FIREBASE_CRED, {
 # firebase_admin.initialize_app(FIREBASE_CRED, {
 #     'databaseURL': 'https://prueba-984f4-default-rtdb.firebaseio.com/'
 # })
+
+LOGIN_URL = '/login/'
+    
+# Éxito: luego de autenticación exitosa
+LOGIN_REDIRECT_URL = '/'
